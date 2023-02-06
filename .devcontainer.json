@@ -1,5 +1,6 @@
 {
     "name": "Sample Dev Container",
     "image": "nginx",
-    "forwardPorts": [80]
+    "forwardPorts": [80],
+    "postCreateCommand": "ls -lha"
 }
